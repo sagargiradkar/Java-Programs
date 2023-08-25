@@ -1,40 +1,18 @@
+# Java-OOPL
 
-# Assignments Repository
-Welcome to the Assignments Repository! This repository contains a collection of assignments, each designed to help you grasp various concepts related to Object-Oriented Programming (OOP) and other relevant topics. Below is a brief overview of each assignment along with the corresponding course outcomes (CO) they align with.
+## Object Oriented Programming Assignments of SPPU Second Year IT Syllabus (2019 pattern)
 
-## Assignment 1: Classes and Objects (CO1, CO2)
-Task: Design a class named 'Complex' with real and imaginary parts as data members. Implement default and parameterized constructors. Write a program to perform arithmetic operations on two complex numbers.
-
-## Assignment 2: Polymorphism (CO3)
-Task: Identify commonalities and differences between Publication, Book, and Magazine classes. Implement these classes and find the number of ordered books and total sales of publications.
-
-## Assignment 3: Inheritance (CO3)
-Task: Design an inheritance structure for an Employee class, inheriting from it: Programmer, Team Lead, Assistant Project Manager, and Project Manager. Calculate and display pay slips for each employee, considering various allowances.
-
-## Assignment 4: Dynamic Binding (CO3)
-Task: Design a base class 'Shape' with methods for inputting data and calculating the area. Derive two classes, 'Triangle' and 'Rectangle', overriding the area calculation method. Implement dynamic binding for this scenario.
-
-## Assignment 5: Interface (CO1, CO3)
-Task: Create an interface for Vehicles, including common functionalities like Gear Change, Speed Up, and Apply Brakes. Implement these functionalities differently in the Bicycle, Bike, and Car classes.
-
-## Assignment 6: Exception Handling (CO4)
-Task: Implement a program to handle Arithmetic and Array Index Out of Bounds exceptions. Ensure proper handling for Number Format and Division by Zero exceptions when the user enters two numbers.
-
-## Assignment 7: Template (CO4)
-Task: Develop a generic program using a collection class to count elements with specific properties, such as even numbers, odd numbers, prime numbers, and palindromes.
-
-## Assignment 8: File Handling (CO5)
-Task: Create a program to maintain a student records database using files. Implement functions to create, display, delete, update, and search for student records.
-
-## Assignment 9: Case Study (CO2, CO5)
-Task: Solve a real-world problem using OOP principles. Choose either a Banking System or Inventory Management System and implement the specified operations.
-
-## Assignment 10: Factory Design Pattern (CO6)
-Task: Implement the Factory Design Pattern for a Car Building Process. Subclasses like Hatchback, Sedan, and SUV should be created for different car types. Implement the Car class, its subclasses, and a CarFactory.
-
-## Assignment 11: Strategy Design Pattern (CO6)
-Task: Apply the Strategy Design Pattern to a simple Shopping Cart. Implement three payment strategies: Credit Card, PayPal, and Bit Coin, using an interface for strategy pattern.
-
-Feel free to explore each assignment in detail by navigating to their respective folders. If you have any questions or need assistance, please reach out to your course instructor or teaching assistant.
-
-Happy coding and learning!
+### Assignment and Problem Statement
+|Assignment|Problem Statement|
+|---|---|
+|[Assignment1](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-1)|Design a class ‘Complex ‘with data members for real and imaginary part. Provide default and Parameterized constructors. Write a program to perform arithmetic operations of two complex numbers.|
+|[Assignment2](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-2)|Identify commonalities and differences between Publication, Book and Magazine classes. Title, Price, Copies are common instance variables and saleCopy is common method. The differences are, Bookclass has author and orderCopies(). Magazine Class has methods orderQty, Current issue, receiveissue().Write a program to find how many copies of the given books are ordered and display total sale of publication.|
+|[Assignment3](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-3)|DDesign and develop inheritance for a given case study, identify objects and relationships and implement inheritance wherever applicable. Employee class hasEmp_name, Emp_id, Address,Mail_id, and Mobile_noas members. Inherit the classes: Programmer, Team Lead, Assistant Project Manager and Project Manager from employee class. Add Basic Pay (BP) as the member of all the inherited classes with 97% of BP as DA, 10 % of BP as HRA, 12% of BP as PF, 0.1% of BP for staff club fund. Generate pay slips for the employees with their gross and net salary.|
+|[Assignment4](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-4)|Design a base class shape with two double type values and member functions to input the data and compute_area() for calculating area of shape. Derive two classes: triangle and rectangle. Make compute_area() as abstract function and redefine this function in the derived class to suit their requirements. Write a program that accepts dimensions of triangle/rectangle and display calculated area. Implement dynamic binding for given case study.|
+|[Assignment5](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-5)|Design and develop a context for given case study and implement an interface for Vehicles Consider the example of vehicles like bicycle, car and bike. All Vehicles have common functionalities such as Gear Change, Speed up and apply breaks. Make an interface and put all these common functionalities. Bicycle, Bike, Car classes should be implemented for all these functionalities in their own class in their own way.|
+|[Assignment6](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-6)|Implement a program to handle Arithmetic exception, Array Index Out of Bounds. The user enters two numbers Num1 and Num2. The division of Num1 and Num2 is displayed. If Num1 and Num2 are not integers, the program would throw a Number Format Exception. If Num2 were zero, the program would throw an Arithmetic Exception. Display the exception.|
+|[Assignment7](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-7)|Implement a generic program using any collection class to count the number of elements in a collection that have a specific property such as even numbers, odd number, prime number and palindromes.|
+|[Assignment8](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-8)|Implement a program for maintaining a database of student records using Files. Student has Student_id,name, Roll_no, Class, marks and address. Display the data for few students. -Create Database 2) Display Database 3) Delete Records 4) Update Record 5) Search Record|
+|[Assignment9](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-9)|Using concepts of Object-Oriented programming develop solution for any one application 1) Banking system having following operations :1. Create an account 2. Deposit money 3. Withdraw money 4. Honor daily withdrawal limit 5. Check the balance 6. Display Account information. 2) Inventory management system having following operations : 1. List of all products 2. Display individual product information 3. Purchase 4. Shipping 5. Balance stock6. Loss and Profit calculation.|
+|[Assignment10](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-10)|Implement Factory design pattern for the given context. Consider Car building process, which requires many steps from allocating accessories to final makeup. These steps should be written as methods and should be called while creating an instance of a specific car type. Hatchback, Sedan, SUV could be the subclasses of Car class. Car class and its subclasses, CarFactory and Test Factory Pattern should be implemented.|
+|[Assignment11](https://github.com/VaibhavBichave/Java-OOPL/tree/main/Assignment-11)|Implement and apply Strategy Design pattern for simple Shopping Cart where three payment strategies are used such as Credit Card, PayPal, Bit Coin. Create an interface for strategy pattern and give concrete implementation for payment.|
